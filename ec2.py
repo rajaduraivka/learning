@@ -35,7 +35,7 @@ def main():
     elif action == 'stop':
         stop_instance(instance_id)
     else:
-        print("Invalid action. Please enter 'start' or 'stop'.")
+        print("Invalid action from you. Please enter 'start' or 'stop'.")
 
 if __name__ == "__main__":
     main()
